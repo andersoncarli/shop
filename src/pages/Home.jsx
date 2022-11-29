@@ -1,4 +1,10 @@
-import { Link } from "react-router-dom"
+// https://www.youtube.com/watch?v=xmCdR4ECJJI&t=606s
+
+// Author: W3layouts
+// Author URL: http://w3layouts.com
+// License: Creative Commons Attribution 3.0 Unported
+// License URL: http://creativecommons.org/licenses/by/3.0/
+
 
 function Home() {
   return (<>
@@ -10,28 +16,31 @@ function Home() {
           {/* nav */}
           <nav className="py-4">
             <div id="logo">
-              <h1> <a href="index.html"><span className="fa fa-bold" aria-hidden="true"></span>ootie</a></h1>
+              <h1> <Link to="/"><span className="fa fa-bold" aria-hidden="true"></span>ootie</Link></h1>
             </div>
 
             <label htmlFor="drop" className="toggle">Menu</label>
             <input type="checkbox" id="drop" />
             <ul className="menu mt-2">
-              <li className="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="blog.html">Blog</a></li>
+              <li className="active">
+                <Link to="/">Home</Link></li>
+              <li>
+                <Link to="/about">About</Link></li>
+              <li>
+                <Link to="/blog">Blog</Link></li>
               <li>
                 {/* First Tier Drop Down */}
                 <label htmlFor="drop-2" className="toggle">Drop Down <span className="fa fa-angle-down"
                   aria-hidden="true"></span> </label>
-                <a href="#">Drop Down <span className="fa fa-angle-down" aria-hidden="true"></span></a>
+                <Link to="#">Drop Down <span className="fa fa-angle-down" aria-hidden="true"></span></Link>
                 <input type="checkbox" id="drop-2" />
                 <ul>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="shop.html">Shop Now</a></li>
-                  <li><a href="shop-single.html">Single Page</a></li>
+                  <li><Link to="/blog">Blog</Link></li>
+                  <li><Link to="/shop">Shop Now</Link></li>
+                  <li><Link to="/shop-single">Single Page</Link></li>
                 </ul>
               </li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
           {/* //nav */}
@@ -43,8 +52,8 @@ function Home() {
         <p>Trending of the week</p>
         <h3 className="mb-4">Casual Shoes for Men</h3>
         <div className="ban-buttons">
-          <a href="shop-single.html" className="btn">Shop Now</a>
-          <a href="single.html" className="btn active">Read More</a>
+          <Link to="/shop-single" className="btn">Shop Now</Link>
+          <Link to="/single" className="btn active">Read More</Link>
         </div>
       </div>
       {/*// banner-inner */}
@@ -114,7 +123,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">Bella Toes </a>
+                  <Link to="/shop-single">Bella Toes </Link>
                 </h4>
 
                 <div className="product_price">
@@ -123,11 +132,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -140,7 +149,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">Chikku Loafers </a>
+                  <Link to="/shop-single">Chikku Loafers </Link>
                 </h4>
 
                 <div className="product_price">
@@ -149,11 +158,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -166,7 +175,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">(SRV) Sneakers </a>
+                  <Link to="/shop-single">(SRV) Sneakers </Link>
                 </h4>
 
                 <div className="product_price">
@@ -175,11 +184,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -192,7 +201,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">Shuberry Heels</a>
+                  <Link to="/shop-single">Shuberry Heels</Link>
                 </h4>
 
                 <div className="product_price">
@@ -201,11 +210,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -218,7 +227,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">Red Bellies </a>
+                  <Link to="/shop-single">Red Bellies </Link>
                 </h4>
 
                 <div className="product_price">
@@ -227,11 +236,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -244,7 +253,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">Catwalk Flats </a>
+                  <Link to="/shop-single">Catwalk Flats </Link>
                 </h4>
 
                 <div className="product_price">
@@ -253,11 +262,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -270,7 +279,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">Running Shoes </a>
+                  <Link to="/shop-single">Running Shoes </Link>
                 </h4>
 
                 <div className="product_price">
@@ -279,11 +288,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -296,7 +305,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">Sukun Casuals </a>
+                  <Link to="/shop-single">Sukun Casuals </Link>
                 </h4>
 
                 <div className="product_price">
@@ -305,11 +314,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -322,7 +331,7 @@ function Home() {
               </div>
               <div className="item-info-product">
                 <h4>
-                  <a href="shop-single.html">Bank Sneakers</a>
+                  <Link to="/shop-single">Bank Sneakers</Link>
                 </h4>
 
                 <div className="product_price">
@@ -331,11 +340,11 @@ function Home() {
                   </div>
                 </div>
                 <ul className="stars">
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></a></li>
-                  <li><a href="#"><span className="fa fa-star-o" aria-hidden="true"></span></a></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
+                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
                 </ul>
               </div>
             </div>
@@ -353,24 +362,24 @@ function Home() {
 
           <ul className="list-unstyled w3layouts-icons clients">
             <li>
-              <a href="#">
+              <Link to="#">
                 <span className="fa fa-star"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <span className="fa fa-star"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <span className="fa fa-star"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#">
+              <Link to="#">
                 <span className="fa fa-star-half-o"></span>
-              </a>
+              </Link>
             </li>
           </ul>
           <p><span className="fa fa-quote-left"></span> Lorem Ipsum has been the industry's standard since the 1500s.
@@ -389,7 +398,7 @@ function Home() {
           <div className="col-md-6 latest-left">
             <div className="product-shoe-info shoe text-center">
               <img src="images/img1.jpg" className="img-fluid" alt="" />
-              <div className="shop-now"><a href="shop.html" className="btn">Shop Now</a></div>
+              <div className="shop-now"><Link to="/shop" className="btn">Shop Now</Link></div>
             </div>
           </div>
           <div className="col-md-6 latest-right">
@@ -398,7 +407,7 @@ function Home() {
                 <div className="product-shoe-info shoe text-center">
                   <div className="men-thumb-item">
                     <img src="images/img2.jpg" className="img-fluid" alt="" />
-                    <div className="shop-now"><a href="shop.html" className="btn">Shop Now</a></div>
+                    <div className="shop-now"><Link to="/shop" className="btn">Shop Now</Link></div>
                   </div>
                 </div>
               </div>
@@ -406,7 +415,7 @@ function Home() {
                 <div className="product-shoe-info shoe text-center">
                   <div className="men-thumb-item">
                     <img src="images/img3.jpg" className="img-fluid" alt="" />
-                    <div className="shop-now"><a href="shop.html" className="btn">Shop Now</a></div>
+                    <div className="shop-now"><Link to="/shop" className="btn">Shop Now</Link></div>
 
                   </div>
                 </div>
@@ -422,22 +431,22 @@ function Home() {
       <div className="container py-lg-0">
         <div className="row text-center brand-items">
           <div className="col-sm-2 col-3">
-            <a href="#"><span className="fa fa-connectdevelop" aria-hidden="true"></span></a>
+            <Link to="#"><span className="fa fa-connectdevelop" aria-hidden="true"></span></Link>
           </div>
           <div className="col-sm-2 col-3">
-            <a href="#"><span className="fa fa-empire" aria-hidden="true"></span></a>
+            <Link to="#"><span className="fa fa-empire" aria-hidden="true"></span></Link>
           </div>
           <div className="col-sm-2 col-3">
-            <a href="#"><span className="fa fa-ioxhost" aria-hidden="true"></span></a>
+            <Link to="#"><span className="fa fa-ioxhost" aria-hidden="true"></span></Link>
           </div>
           <div className="col-sm-2 col-3">
-            <a href="#"><span className="fa fa-first-order" aria-hidden="true"></span></a>
+            <Link to="#"><span className="fa fa-first-order" aria-hidden="true"></span></Link>
           </div>
           <div className="col-sm-2 col-3 mt-sm-0 mt-4">
-            <a href="#"><span className="fa fa-joomla" aria-hidden="true"></span></a>
+            <Link to="#"><span className="fa fa-joomla" aria-hidden="true"></span></Link>
           </div>
           <div className="col-sm-2 col-3 mt-sm-0 mt-4">
-            <a href="#"><span className="fa fa-dropbox" aria-hidden="true"></span></a>
+            <Link to="#"><span className="fa fa-dropbox" aria-hidden="true"></span></Link>
           </div>
         </div>
       </div>
@@ -449,31 +458,31 @@ function Home() {
         <div className="row footer-top">
           <div className="col-lg-4 footer-grid_section_w3layouts">
             <h2 className="logo-2 mb-lg-4 mb-3">
-              <a href="index.html"><span className="fa fa-bold" aria-hidden="true"></span>ootie</a>
+              <Link to="/"><span className="fa fa-bold" aria-hidden="true"></span>ootie</Link>
             </h2>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat.</p>
             <h4 className="sub-con-fo ad-info my-4">Catch on Social</h4>
             <ul className="w3layouts_social_list list-unstyled">
               <li>
-                <a href="#" className="w3pvt_facebook">
+                <Link to="#" className="w3pvt_facebook">
                   <span className="fa fa-facebook-f"></span>
-                </a>
+                </Link>
               </li>
               <li className="mx-2">
-                <a href="#" className="w3pvt_twitter">
+                <Link to="#" className="w3pvt_twitter">
                   <span className="fa fa-twitter"></span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="w3pvt_dribble">
+                <Link to="#" className="w3pvt_dribble">
                   <span className="fa fa-dribbble"></span>
-                </a>
+                </Link>
               </li>
               <li className="ml-2">
-                <a href="#" className="w3pvt_google">
+                <Link to="#" className="w3pvt_google">
                   <span className="fa fa-google-plus"></span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -490,25 +499,29 @@ function Home() {
             </div>
             <div className="row mt-lg-4 bottom-w3layouts-sec-nav mx-0">
               <div className="col-md-4 footer-grid_section_w3layouts">
+
                 <h3 className="footer-title text-uppercase text-wh mb-lg-4 mb-3">Information</h3>
+
                 <ul className="list-unstyled w3layouts-icons">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li className="mt-3">
-                    <a href="about.html">About Us</a>
+                    <Link to="/about">About Us</Link>
+                  </li>
+
+                  <li className="mt-3">
+                    <Link to="#">Gallery</Link>
                   </li>
                   <li className="mt-3">
-                    <a href="#">Gallery</a>
+                    <Link to="#">Services</Link>
                   </li>
                   <li className="mt-3">
-                    <a href="#">Services</a>
-                  </li>
-                  <li className="mt-3">
-                    <a href="contact.html">Contact Us</a>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
+
               <div className="col-md-4 footer-grid_section_w3layouts">
                 {/* social icons */}
                 <div className="agileinfo_social_icons">
@@ -516,19 +529,19 @@ function Home() {
                   <ul className="list-unstyled w3layouts-icons">
 
                     <li>
-                      <a href="#">About Us</a>
+                      <Link to="#">About Us</Link>
                     </li>
                     <li className="mt-3">
-                      <a href="#">Delivery & Returns</a>
+                      <Link to="#">Delivery & Returns</Link>
                     </li>
                     <li className="mt-3">
-                      <a href="#">Waranty</a>
+                      <Link to="#">Waranty</Link>
                     </li>
                     <li className="mt-3">
-                      <a href="#">Terms & Condition</a>
+                      <Link to="#">Terms & Condition</Link>
                     </li>
                     <li className="mt-3">
-                      <a href="#">Privacy Plolicy</a>
+                      <Link to="#">Privacy Plolicy</Link>
                     </li>
                   </ul>
                 </div>
@@ -543,7 +556,7 @@ function Home() {
                   </div>
                   <div className="footer-address-inf my-4">
                     <h4 className="ad-info mb-2">Email </h4>
-                    <p><a href="mailto:info@example.com">info@example.com</a></p>
+                    <p><Link to="/mailto:info@example.com">info@example.com</Link></p>
                   </div>
                   <div className="footer-address-inf">
                     <h4 className="ad-info mb-2">Location</h4>
@@ -556,11 +569,11 @@ function Home() {
             </div>
             <div className="cpy-right text-left row">
               <p className="col-md-10">© 2019 Bootie. All rights reserved | Design by
-                <a href="http://w3layouts.com"> W3layouts.</a>
+                <Link to="/http://w3layouts.com"> W3layouts.</Link>
               </p>
               {/* move top icon */}
-              <a href="#home" className="move-top text-right col-md-2"><span className="fa fa-long-arrow-up"
-                aria-hidden="true"></span></a>
+              <Link to="#home" className="move-top text-right col-md-2"><span className="fa fa-long-arrow-up"
+                aria-hidden="true"></span></Link>
               {/* //move top icon */}
             </div>
           </div>
@@ -568,7 +581,6 @@ function Home() {
       </div>
     </footer>
     {/* //footer */}
-
   </>)
 }
 
