@@ -1,14 +1,7 @@
 export default function Blog() {
   return (<>
 
-    <Header></Header>
-
-    <ol className="breadcrumb">
-      <li className="breadcrumb-item">
-        <Link to="/">Home</Link>
-      </li>
-      <li className="breadcrumb-item active">Blogs</li>
-    </ol>
+    <Header>Blogs</Header>
 
     <section className="ab-info-main py-5">
       <div className="container py-lg-3">

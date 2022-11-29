@@ -1,15 +1,7 @@
 export default function Contact() {
     return (<>
-        <Header></Header>
-        <ol className="breadcrumb">
-            <li className="breadcrumb-item">
-                <Link to="/">Home</Link>
-            </li>
-            <li className="breadcrumb-item active">Contact Us</li>
-        </ol>
-        {/**/}
-        {/*// mian-content */}
-        {/* banner */}
+        <Header>Contact Us</Header>
+
         <section className="ab-info-main py-5">
             <div className="container py-3">
                 <h3 className="tittle text-center"><span className="sub-tittle">Find Us</span> Contact Us</h3>

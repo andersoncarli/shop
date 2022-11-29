@@ -1,16 +1,8 @@
 
 export default function ShopSingle() {
     return (<>
-        <Header></Header>
+        <Header>Shop Single</Header>
 
-        <ol className="breadcrumb">
-            <li className="breadcrumb-item">
-                <Link to="/">Home</Link>
-            </li>
-            <li className="breadcrumb-item active">Shop Single</li>
-        </ol>
-
-        {/* banner */}
         <section className="ab-info-main py-md-5 py-4">
             <div className="container py-md-3">
                 {/* top Products */}

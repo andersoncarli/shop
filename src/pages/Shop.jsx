@@ -1,13 +1,6 @@
 export default function Shop() {
     return (<>
-        <Header></Header>
-
-        <ol className="breadcrumb">
-            <li className="breadcrumb-item">
-                <Link to="/">Home</Link>
-            </li>
-            <li className="breadcrumb-item active">Single Page</li>
-        </ol>
+        <Header>Shop</Header>
 
         <div className="container py-md-3">
             <div className="row">

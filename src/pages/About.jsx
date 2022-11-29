@@ -1,57 +1,8 @@
 
 export default function About() {
   return (<>
+    <Header>About Us</Header>
 
-    {/* main-content */}
-    <div className="main-banner inner" id="home">
-      {/* header */}
-      <header className="header">
-        <div className="container-fluid px-lg-5">
-          {/* nav */}
-          <nav className="py-4">
-            <div id="logo">
-              <h1> <Link to="/"><span className="fa fa-bold" aria-hidden="true"></span>ootie</Link></h1>
-            </div>
-
-            <label htmlFor="drop" className="toggle">Menu</label>
-            <input type="checkbox" id="drop" />
-            <ul className="menu mt-2">
-              <li>
-                <Link to="/">Home</Link></li>
-              <li className="active">
-                <Link to="/about">About</Link></li>
-              <li>
-                <Link to="/blog">Blog</Link></li>
-              <li>
-                {/* First Tier Drop Down */}
-                <label htmlFor="drop-2" className="toggle">Drop Down <span className="fa fa-angle-down" aria-hidden="true"></span> </label>
-                <Link to="#">Drop Down <span className="fa fa-angle-down" aria-hidden="true"></span></Link>
-                <input type="checkbox" id="drop-2" />
-                <ul>
-                  <li><Link to="/blog">Blog</Link></li>
-                  <li><Link to="/shop">Shop Now</Link></li>
-                  <li><Link to="/single">Single Page</Link></li>
-                </ul>
-              </li>
-              <li><Link to="/contact">Contact</Link></li>
-            </ul>
-          </nav>
-          {/* //nav */}
-        </div>
-      </header>
-      {/* //header */}
-
-    </div>
-    {/*//main-content*/}
-    {/**/}
-    <ol className="breadcrumb">
-      <li className="breadcrumb-item">
-        <Link to="/">Home</Link>
-      </li>
-      <li className="breadcrumb-item active">About Us</li>
-    </ol>
-    {/**/}
-    {/*// mian-content */}
     {/*/ab */}
     <section className="hand-crafted py-5">
       <div className="container">
@@ -61,7 +12,7 @@ export default function About() {
         </div>
       </div>
     </section>
-    {/* //ab */}
+
     {/*/ab */}
     <section className="about py-md-5 py-5">
       <div className="container py-md-3">
@@ -93,6 +44,7 @@ export default function About() {
         </div>
       </div>
     </section>
+
     {/* //ab */}
     {/* /hand-crafted */}
     <section className="hand-crafted py-5">

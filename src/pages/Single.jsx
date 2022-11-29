@@ -1,16 +1,8 @@
 
 export default function Single() {
     return (<>
-        <Header></Header>
+        <Header>Single Page</Header>
 
-        <ol className="breadcrumb">
-            <li className="breadcrumb-item">
-                <Link to="/">Home</Link>
-            </li>
-            <li className="breadcrumb-item active">Single Page</li>
-        </ol>
-
-        {/* banner */}
         <section className="ab-info-main py-md-5">
             <div className="container py-md-3">
                 <h3 className="tittle text-center mb-lg-5 mb-3"> Single Page</h3>
