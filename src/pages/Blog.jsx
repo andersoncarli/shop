@@ -13,7 +13,7 @@ export default function Blog() {
                             <h1> <Link to="/"><span class="fa fa-bold" aria-hidden="true"></span>ootie</Link></h1>
                         </div>
 
-                        <label for="drop" class="toggle">Menu</label>
+                        <label htmlFor="drop" class="toggle">Menu</label>
                         <input type="checkbox" id="drop" />
                         <ul class="menu mt-2">
                             <li><Link to="/">Home</Link></li>
@@ -21,7 +21,7 @@ export default function Blog() {
                             <li class="active"><Link to="/blog">Blog</Link></li>
                             <li>
                                 {/* First Tier Drop Down */}
-                                <label for="drop-2" class="toggle">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                                <label htmlFor="drop-2" class="toggle">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
                                 <Link to="#">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span></Link>
                                 <input type="checkbox" id="drop-2" />
                                 <ul>

@@ -12,7 +12,7 @@ export default function Single() {
                             <h1> <Link to="/"><span class="fa fa-bold" aria-hidden="true"></span>ootie</Link></h1>
                         </div>
 
-                        <label for="drop" class="toggle">Menu</label>
+                        <label htmlFor="drop" class="toggle">Menu</label>
                         <input type="checkbox" id="drop" />
                         <ul class="menu mt-2">
                             <li><Link to="/">Home</Link></li>
@@ -20,7 +20,7 @@ export default function Single() {
                             <li><Link to="/blog">Blog</Link></li>
                             <li>
                                 {/* First Tier Drop Down */}
-                                <label for="drop-2" class="toggle">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+                                <label htmlFor="drop-2" class="toggle">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
                                 <Link to="#">Drop Down <span class="fa fa-angle-down" aria-hidden="true"></span></Link>
                                 <input type="checkbox" id="drop-2" />
                                 <ul>
@@ -78,16 +78,16 @@ export default function Single() {
                             <h3><span class="sub-tittle">01</span> Leave a Reply</h3>
                             <form action="#" method="get" class="mt-4">
                                 <div class="form-group">
-                                    <label for="contactcomment">Your Comment *</label>
+                                    <label htmlFor="contactcomment">Your Comment *</label>
                                     <textarea class="form-control border" rows="5" id="contactcomment" required=""></textarea>
                                 </div>
                                 <div class="d-sm-flex">
                                     <div class="col-sm-6 form-group p-0">
-                                        <label for="contactusername">Name *</label>
+                                        <label htmlFor="contactusername">Name *</label>
                                         <input type="text" class="form-control border" id="contactusername" required="" />
                                     </div>
                                     <div class="col-sm-6 form-group ml-sm-3">
-                                        <label for="contactemail">Email *</label>
+                                        <label htmlFor="contactemail">Email *</label>
                                         <input type="email" class="form-control border" id="contactemail" required="" />
                                     </div>
                                 </div>
