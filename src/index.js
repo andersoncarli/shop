@@ -8,6 +8,9 @@ global.t = (txt) => {
   console.log(txt)
   return txt
 }
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+Object.assign(global, { Footer, Header })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
