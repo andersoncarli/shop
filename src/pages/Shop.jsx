@@ -3,6 +3,7 @@ export default function Shop() {
         <Header>Shop</Header>
 
         <div className="container py-md-3">
+            {/* top Products */}
             <div className="row">
                 {/* product left */}
                 <div className="side-bar col-lg-4">
@@ -14,6 +15,7 @@ export default function Shop() {
                             <button className="btn1"><span className="fa fa-search" aria-hidden="true"></span></button>
                         </form>
                     </div>
+
                     {/*preference */}
                     <div className="left-side my-4">
                         <h3 className="sear-head">Occasion</h3>
@@ -36,6 +38,7 @@ export default function Shop() {
                             </li>
                         </ul>
                     </div>
+
                     {/* discounts */}
                     <div className="left-side">
                         <h3 className="sear-head">Discount</h3>
@@ -72,10 +75,11 @@ export default function Shop() {
             <div className="customer-rev left-side my-4">
                 <h3 className="sear-head">Customer Review</h3>
                 <div className="w3layouts-box-list">
-                    <Stars value="5.0"/>
-                    <Stars value="4.0"/>
-                    <Stars value="3.0"/>
-                    <Stars value="2.5"/>
+                    <Stars value="5.0" />
+                    <Stars value="4.0" />
+                    <Stars value="3.5" />
+                    <Stars value="3.0" />
+                    <Stars value="2.5" />
                 </div>
             </div>
 

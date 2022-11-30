@@ -18,254 +18,44 @@ function Home() {
       </div>
     </Header>
 
-    {/*//main-content*/}
-    {/*/ab */}
+    {/* Promotion Cards */}
     <section className="about py-md-5 py-5">
       <div className="container-fluid">
         <div className="feature-grids row px-3">
-          <div className="col-lg-3 gd-bottom">
-            <div className="bottom-gd row">
-              <div className="icon-gd col-md-3 text-center"><span className="fa fa-truck" aria-hidden="true"></span>
-              </div>
-              <div className="icon-gd-info col-md-9">
-                <h3 className="mb-2">FREE SHIPPING</h3>
-                <p>On all order over $2000</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 gd-bottom">
-            <div className="bottom-gd row bottom-gd2-active">
-              <div className="icon-gd col-md-3 text-center"><span className="fa fa-bullhorn"
-                aria-hidden="true"></span></div>
-              <div className="icon-gd-info col-md-9">
-                <h3 className="mb-2">FREE RETURN</h3>
-                <p>On 1st exchange in 30 days</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 gd-bottom">
-            <div className="bottom-gd row">
-              <div className="icon-gd col-md-3 text-center"> <span className="fa fa-gift" aria-hidden="true"></span>
-              </div>
-
-              <div className="icon-gd-info col-md-9">
-                <h3 className="mb-2">MEMBER DISCOUNT</h3>
-                <p>Register & save up to $29%</p>
-              </div>
-
-            </div>
-          </div>
-          <div className="col-lg-3 gd-bottom">
-            <div className="bottom-gd row">
-              <div className="icon-gd col-md-3 text-center"> <span className="fa fa-usd" aria-hidden="true"></span>
-              </div>
-              <div className="icon-gd-info col-md-9">
-                <h3 className="mb-2">PREMIUM SUPPORT</h3>
-                <p>Support 24 hours per day</p>
-              </div>
-            </div>
-          </div>
+          <Card icon="truck" title="FREE SHIPPING" detail="On all order over $2000" />
+          <Card icon="bullhorn" title="FREE RETURN" detail="On 1st exchange in 30 days" className="bottom-gd2-active" />
+          <Card icon="gift" title="MEMBER DISCOUNT" detail="Register & save up to $29%" />
+          <Card icon="usd" title="PREMIUM SUPPORT" detail="Support 24 hours per day" />
         </div>
       </div>
     </section>
-    {/* //ab */}
-    {/*/ab */}
+
+    {/* New Arrivals */}
     <section className="about py-5">
       <div className="container pb-lg-3">
+
         <h3 className="tittle text-center">New Arrivals</h3>
+
         <div className="row">
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s1.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Bella Toes </Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$675.00</span>
-                  </div>
-                </div>
-                <Stars value="2.5" />
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s2.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Chikku Loafers </Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$475.00</span>
-                  </div>
-                </div>
-                <Stars value="2.5"></Stars>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s3.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">(SRV) Sneakers </Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$575.00</span>
-                  </div>
-                </div>
-                <Stars value="3.5"></Stars>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 product-men my-lg-4">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s4.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Shuberry Heels</Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$575.00</span>
-                  </div>
-                </div>
-                <Stars value="3.5" />
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 product-men my-lg-4">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s5.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Red Bellies </Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$575.00</span>
-                  </div>
-                </div>
-                <Stars value="3.5" />
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 product-men my-lg-4">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s6.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Catwalk Flats </Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$575.00</span>
-                  </div>
-                </div>
-                <Stars value="3.5" />
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s7.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Running Shoes </Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$675.00</span>
-                  </div>
-                </div>
-                <Stars value="2.5" />
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s8.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Sukun Casuals </Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price ">
-                    <span className="money ">$775.00</span>
-                  </div>
-                </div>
-
-                <Stars value="3.5" />
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s9.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Bank Sneakers</Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$875.00</span>
-                  </div>
-                </div>
-                <Stars value="4.5" />
-              </div>
-            </div>
-          </div>
+          <Product img="images/s1.jpg" name="Bella Toes" price="$675.00" stars="2.5" />
+          <Product img="images/s2.jpg" name="Chikku Loafers " price="$475.00" stars="2.5" />
+          <Product img="images/s3.jpg" name="(SRV) Sneakers" price="$575.00" stars="3.5" />
+          <Product img="images/s4.jpg" name="Shuberry Heels" price="$575.00" stars="3.5" />
+          <Product img="images/s5.jpg" name="Red Bellies" price="$575.00" stars="3.5" />
+          <Product img="images/s6.jpg" name="Catwalk Flats" price="$575.00" stars="3.5" />
+          <Product img="images/s7.jpg" name="Running Shoes" price="$675.00" stars="2.5" />
+          <Product img="images/s8.jpg" name="Sukun Casuals" price="$775.00" stars="3.5" />
+          <Product img="images/s9.jpg" name="Bank Sneakers" price="$875.00" stars="4.5" />
         </div>
 
       </div>
     </section>
-    {/* //ab */}
-    {/*/testimonials*/}
+
+    {/* testimonials */}
     <section className="testimonials py-5">
       <div className="container">
         <div className="test-info text-center">
           <h3 className="my-md-2 my-3">Jenifer Burns</h3>
-
           <Stars value="2.5"></Stars>
           <p><span className="fa fa-quote-left"></span> Lorem Ipsum has been the industry's standard since the 1500s.
             Praesent ullamcorper dui turpis.Nulla pellentesque mi non laoreet eleifend. Integer porttitor
@@ -274,18 +64,20 @@ function Home() {
         </div>
       </div>
     </section>
-    {/*//testimonials*/}
-    {/*/ab */}
+
+    {/* Popular Products */}
     <section className="about py-5">
       <div className="container pb-lg-3">
         <h3 className="tittle text-center">Popular Products</h3>
         <div className="row">
+
           <div className="col-md-6 latest-left">
             <div className="product-shoe-info shoe text-center">
               <img src="images/img1.jpg" className="img-fluid" alt="" />
               <div className="shop-now"><Link to="/shop" className="btn">Shop Now</Link></div>
             </div>
           </div>
+
           <div className="col-md-6 latest-right">
             <div className="row latest-grids">
               <div className="latest-grid1 product-men col-12">
@@ -296,12 +88,12 @@ function Home() {
                   </div>
                 </div>
               </div>
+
               <div className="latest-grid2 product-men col-12 mt-lg-4">
                 <div className="product-shoe-info shoe text-center">
                   <div className="men-thumb-item">
                     <img src="images/img3.jpg" className="img-fluid" alt="" />
                     <div className="shop-now"><Link to="/shop" className="btn">Shop Now</Link></div>
-
                   </div>
                 </div>
               </div>
@@ -310,35 +102,69 @@ function Home() {
         </div>
       </div>
     </section>
-    {/* //ab */}
+
     {/* brands */}
     <section className="brands py-5" id="brands">
       <div className="container py-lg-0">
         <div className="row text-center brand-items">
-          <div className="col-sm-2 col-3">
-            <Link to="#"><span className="fa fa-connectdevelop" aria-hidden="true"></span></Link>
-          </div>
-          <div className="col-sm-2 col-3">
-            <Link to="#"><span className="fa fa-empire" aria-hidden="true"></span></Link>
-          </div>
-          <div className="col-sm-2 col-3">
-            <Link to="#"><span className="fa fa-ioxhost" aria-hidden="true"></span></Link>
-          </div>
-          <div className="col-sm-2 col-3">
-            <Link to="#"><span className="fa fa-first-order" aria-hidden="true"></span></Link>
-          </div>
-          <div className="col-sm-2 col-3 mt-sm-0 mt-4">
-            <Link to="#"><span className="fa fa-joomla" aria-hidden="true"></span></Link>
-          </div>
-          <div className="col-sm-2 col-3 mt-sm-0 mt-4">
-            <Link to="#"><span className="fa fa-dropbox" aria-hidden="true"></span></Link>
-          </div>
+          <Brand brand="connectdevelop" />
+          <Brand brand="empire" />
+          <Brand brand="ioxhost" />
+          <Brand brand="first-order" />
+          <Brand brand="joomla" />
+          <Brand brand="dropbox" />
         </div>
       </div>
     </section>
 
     <Footer></Footer>
   </>)
+}
+
+function Card({ icon, title, detail, className = '' }) {
+  return (
+    <div className="col-lg-3 gd-bottom">
+      <div className={"bottom-gd row " + className}>
+        <div className="icon-gd col-md-3 text-center"><span className={"fa fa-" + icon} aria-hidden="true"></span>
+        </div>
+        <div className="icon-gd-info col-md-9">
+          <h3 className="mb-2">{title}</h3>
+          <p>{detail}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Product({ img, name, price, stars }) {
+  return (
+    <div className="col-md-4 product-men">
+      <div className="product-shoe-info shoe text-center">
+        <div className="men-thumb-item">
+          <img src={img} className="img-fluid" alt="" />
+          <span className="product-new-top">New</span>
+        </div>
+        <div className="item-info-product">
+          <h4>
+            <Link to="/shop-single">{name}</Link>
+          </h4>
+
+          <div className="product_price">
+            <div className="grid-price">
+              <span className="money">{price}</span>
+            </div>
+          </div>
+          <Stars value={stars} />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Brand({ brand }) {
+  return (
+    <div className="col-sm-2 col-3"> <Link to="#"><span className={"fa fa-" + brand} aria-hidden="true"></span></Link> </div>
+  )
 }
 
 export default Home
