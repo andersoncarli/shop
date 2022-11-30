@@ -196,28 +196,7 @@ export default function About() {
         <div className="test-info text-center">
           <h3 className="my-md-2 my-3">Jenifer Burns</h3>
 
-          <ul className="list-unstyled w3layouts-icons clients">
-            <li>
-              <Link to="#">
-                <span className="fa fa-star"></span>
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <span className="fa fa-star"></span>
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <span className="fa fa-star"></span>
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <span className="fa fa-star-half-o"></span>
-              </Link>
-            </li>
-          </ul>
+          <Stars className="list-unstyled w3layouts-icons clients"></Stars>
           <p><span className="fa fa-quote-left"></span> Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. <span className="fa fa-quote-right"></span></p>
 
         </div>

@@ -90,13 +90,7 @@ function Home() {
                     <span className="money">$675.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+                <Stars value="2.5" />
               </div>
             </div>
           </div>
@@ -116,13 +110,7 @@ function Home() {
                     <span className="money">$475.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+                <Stars value="2.5"></Stars>
               </div>
             </div>
           </div>
@@ -142,13 +130,7 @@ function Home() {
                     <span className="money">$575.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+                <Stars value="3.5"></Stars>
               </div>
             </div>
           </div>
@@ -168,13 +150,7 @@ function Home() {
                     <span className="money">$575.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+                <Stars value="3.5" />
               </div>
             </div>
           </div>
@@ -194,13 +170,7 @@ function Home() {
                     <span className="money">$575.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+                <Stars value="3.5" />
               </div>
             </div>
           </div>
@@ -220,13 +190,7 @@ function Home() {
                     <span className="money">$575.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+                <Stars value="3.5" />
               </div>
             </div>
           </div>
@@ -246,13 +210,7 @@ function Home() {
                     <span className="money">$675.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+                <Stars value="2.5" />
               </div>
             </div>
           </div>
@@ -272,13 +230,8 @@ function Home() {
                     <span className="money ">$775.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+
+                <Stars value="3.5" />
               </div>
             </div>
           </div>
@@ -298,13 +251,7 @@ function Home() {
                     <span className="money">$875.00</span>
                   </div>
                 </div>
-                <ul className="stars">
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                  <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                </ul>
+                <Stars value="4.5" />
               </div>
             </div>
           </div>
@@ -319,28 +266,7 @@ function Home() {
         <div className="test-info text-center">
           <h3 className="my-md-2 my-3">Jenifer Burns</h3>
 
-          <ul className="list-unstyled w3layouts-icons clients">
-            <li>
-              <Link to="#">
-                <span className="fa fa-star"></span>
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <span className="fa fa-star"></span>
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <span className="fa fa-star"></span>
-              </Link>
-            </li>
-            <li>
-              <Link to="#">
-                <span className="fa fa-star-half-o"></span>
-              </Link>
-            </li>
-          </ul>
+          <Stars value="2.5"></Stars>
           <p><span className="fa fa-quote-left"></span> Lorem Ipsum has been the industry's standard since the 1500s.
             Praesent ullamcorper dui turpis.Nulla pellentesque mi non laoreet eleifend. Integer porttitor
             mollisar lorem, at molestie arcu pulvinar ut. <span className="fa fa-quote-right"></span></p>

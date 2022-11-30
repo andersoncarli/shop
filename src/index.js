@@ -7,10 +7,12 @@ import App from './App';
 global.t = (txt) => {
   console.log(txt)
   return txt
+
 }
+import Stars from "./components/Stars"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
-Object.assign(global, { Footer, Header })
+Object.assign(global, { Footer, Header, Stars })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -44,13 +44,12 @@ export default function Header({ children }) {
 
     </div>
 
-
-    <ol className="breadcrumb" hidden={!inner}>
-      <li className="breadcrumb-item">
-        <Link to="/">Home</Link>
-      </li>
-      <li className="breadcrumb-item active">{children}</li>
-    </ol>
-
+    {!!inner &&
+      <ol className="breadcrumb">
+        <li className="breadcrumb-item">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="breadcrumb-item active">{children}</li>
+      </ol>}
   </>)
 }

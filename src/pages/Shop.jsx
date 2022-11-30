@@ -71,58 +71,12 @@ export default function Shop() {
             {/* reviews */}
             <div className="customer-rev left-side my-4">
                 <h3 className="sear-head">Customer Review</h3>
-                <ul className="w3layouts-box-list">
-                    <li>
-                        <Link to="#">
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span>5.0</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="#">
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star-o" aria-hidden="true"></span>
-                            <span>4.0</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="#">
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star-half-o" aria-hidden="true"></span>
-                            <span className="fa fa-star-o" aria-hidden="true"></span>
-                            <span>3.5</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="#">
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star-o" aria-hidden="true"></span>
-                            <span className="fa fa-star-o" aria-hidden="true"></span>
-                            <span>3.0</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="#">
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star" aria-hidden="true"></span>
-                            <span className="fa fa-star-half-o" aria-hidden="true"></span>
-                            <span className="fa fa-star-o" aria-hidden="true"></span>
-                            <span className="fa fa-star-o" aria-hidden="true"></span>
-                            <span>2.5</span>
-                        </Link>
-                    </li>
-                </ul>
+                <div className="w3layouts-box-list">
+                    <Stars value="5.0"/>
+                    <Stars value="4.0"/>
+                    <Stars value="3.0"/>
+                    <Stars value="2.5"/>
+                </div>
             </div>
 
             {/* deals */}
@@ -200,13 +154,7 @@ export default function Shop() {
                                         <span className="money">$675.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div>
@@ -226,13 +174,7 @@ export default function Shop() {
                                         <span className="money">$475.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div>
@@ -252,13 +194,7 @@ export default function Shop() {
                                         <span className="money">$575.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div >
@@ -278,13 +214,7 @@ export default function Shop() {
                                         <span className="money">$575.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div >
@@ -304,13 +234,7 @@ export default function Shop() {
                                         <span className="money">$575.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div >
@@ -330,13 +254,7 @@ export default function Shop() {
                                         <span className="money">$575.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div >
@@ -356,13 +274,7 @@ export default function Shop() {
                                         <span className="money">$675.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div >
@@ -382,13 +294,7 @@ export default function Shop() {
                                         <span className="money ">$775.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div >
@@ -408,13 +314,7 @@ export default function Shop() {
                                         <span className="money">$875.00</span>
                                     </div>
                                 </div>
-                                <ul className="stars">
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-half-o" aria-hidden="true"></span></Link></li>
-                                    <li><Link to="#"><span className="fa fa-star-o" aria-hidden="true"></span></Link></li>
-                                </ul>
+                                <Stars value="3.5" />
                             </div>
                         </div>
                     </div >
