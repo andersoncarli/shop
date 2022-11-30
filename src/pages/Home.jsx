@@ -6,46 +6,8 @@
 
 function Home() {
   return (<>
-    {/* main-content */}
-    <div className="main-banner" id="home">
-      {/* header */}
-      <header className="header">
-        <div className="container-fluid px-lg-5">
-          {/* nav */}
-          <nav className="py-4">
-            <div id="logo">
-              <h1> <Link to="/"><span className="fa fa-bold" aria-hidden="true"></span>ootie</Link></h1>
-            </div>
 
-            <label htmlFor="drop" className="toggle">Menu</label>
-            <input type="checkbox" id="drop" />
-            <ul className="menu mt-2">
-              <li className="active">
-                <Link to="/">Home</Link></li>
-              <li>
-                <Link to="/about">About</Link></li>
-              <li>
-                <Link to="/blog">Blog</Link></li>
-              <li>
-                {/* First Tier Drop Down */}
-                <label htmlFor="drop-2" className="toggle">Drop Down <span className="fa fa-angle-down"
-                  aria-hidden="true"></span> </label>
-                <Link to="#">Drop Down <span className="fa fa-angle-down" aria-hidden="true"></span></Link>
-                <input type="checkbox" id="drop-2" />
-                <ul>
-                  <li><Link to="/blog">Blog</Link></li>
-                  <li><Link to="/shop">Shop Now</Link></li>
-                  <li><Link to="/shop-single">Single Page</Link></li>
-                </ul>
-              </li>
-              <li><Link to="/contact">Contact</Link></li>
-            </ul>
-          </nav>
-          {/* //nav */}
-        </div>
-      </header>
-      {/* //header */}
-      {/*/banner*/}
+    <Header>
       <div className="banner-info">
         <p>Trending of the week</p>
         <h3 className="mb-4">Casual Shoes for Men</h3>
@@ -54,9 +16,8 @@ function Home() {
           <Link to="/single" className="btn active">Read More</Link>
         </div>
       </div>
-      {/*// banner-inner */}
+    </Header>
 
-    </div>
     {/*//main-content*/}
     {/*/ab */}
     <section className="about py-md-5 py-5">

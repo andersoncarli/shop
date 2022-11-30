@@ -1,6 +1,9 @@
-export default function ({ children }) {
+export default function Header({ children }) {
+
+  let inner = typeof children == 'string' ? ' inner' : ''
+
   return (<>
-    <div className="main-banner inner" id="home">
+    <div className={"main-banner" + inner} id="home">
       <header className="header">
         <div className="container-fluid px-lg-5">
 
@@ -26,6 +29,7 @@ export default function ({ children }) {
                 <ul>
                   <li><Link to="/blog">Blog</Link></li>
                   <li><Link to="/shop">Shop Now</Link></li>
+                  <li><Link to="/shop-single">Shop Single</Link></li>
                   <li><Link to="/single">Single Page</Link></li>
                 </ul>
               </li>
@@ -35,9 +39,13 @@ export default function ({ children }) {
 
         </div>
       </header>
+
+      {!inner && children}
+
     </div>
 
-    <ol className="breadcrumb">
+
+    <ol className="breadcrumb" hidden={!inner}>
       <li className="breadcrumb-item">
         <Link to="/">Home</Link>
       </li>

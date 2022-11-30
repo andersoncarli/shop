@@ -12,7 +12,6 @@ import { Link } from "react-router-dom"
 global.Link = Link
 
 export default function RouterPage() {
-  console.log(RouterPage)
   return (
     <div>
       <Router>
