@@ -22,10 +22,10 @@ function Home() {
     <section className="about py-md-5 py-5">
       <div className="container-fluid">
         <div className="feature-grids row px-3">
-          <Card icon="truck" title="FREE SHIPPING" detail="On all order over $2000" />
-          <Card icon="bullhorn" title="FREE RETURN" detail="On 1st exchange in 30 days" className="bottom-gd2-active" />
-          <Card icon="gift" title="MEMBER DISCOUNT" detail="Register & save up to $29%" />
-          <Card icon="usd" title="PREMIUM SUPPORT" detail="Support 24 hours per day" />
+          <Offer icon="truck" title="FREE SHIPPING" detail="On all order over $2000" />
+          <Offer icon="bullhorn" title="FREE RETURN" detail="On 1st exchange in 30 days" className="bottom-gd2-active" />
+          <Offer icon="gift" title="MEMBER DISCOUNT" detail="Register & save up to $29%" />
+          <Offer icon="usd" title="PREMIUM SUPPORT" detail="Support 24 hours per day" />
         </div>
       </div>
     </section>
@@ -119,21 +119,6 @@ function Home() {
 
     <Footer></Footer>
   </>)
-}
-
-function Card({ icon, title, detail, className = '' }) {
-  return (
-    <div className="col-lg-3 gd-bottom">
-      <div className={"bottom-gd row " + className}>
-        <div className="icon-gd col-md-3 text-center"><span className={"fa fa-" + icon} aria-hidden="true"></span>
-        </div>
-        <div className="icon-gd-info col-md-9">
-          <h3 className="mb-2">{title}</h3>
-          <p>{detail}</p>
-        </div>
-      </div>
-    </div>
-  )
 }
 
 function Product({ img, name, price, stars }) {

@@ -1,4 +1,3 @@
-
 export default function About() {
   return (<>
     <Header>About Us</Header>
@@ -13,39 +12,6 @@ export default function About() {
       </div>
     </section>
 
-    {/*/ab */}
-    <section className="about py-md-5 py-5">
-      <div className="container py-md-3">
-        <h3 className="tittle text-center">What We Offer</h3>
-        <div className="feature-grids row">
-          <div className="col-md-4 gd-bottom mt-lg-4">
-            <div className="bottom-gd p-lg-5 p-4">
-              <span className="fa fa-truck" aria-hidden="true"></span>
-              <h3 className="my-3">
-                FREE SHIPPING</h3>
-              <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
-            </div>
-          </div>
-          <div className="col-md-4 gd-bottom mt-lg-4">
-            <div className="bottom-gd2-active p-lg-5 p-4">
-              <span className="fa fa-bullhorn" aria-hidden="true"></span>
-              <h3 className="my-3">FREE RETURN</h3>
-              <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
-            </div>
-          </div>
-          <div className="col-md-4 gd-bottom mt-lg-4">
-            <div className="bottom-gd p-lg-5 p-4">
-              <span className="fa fa-gift" aria-hidden="true"></span>
-              <h3 className="my-3">MEMBER DISCOUNT</h3>
-              <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    {/* //ab */}
     {/* /hand-crafted */}
     <section className="hand-crafted py-5">
       <div className="container py-md-3">
@@ -53,143 +19,41 @@ export default function About() {
           <div className="col-md-6 banner-image">
             <div className="effect-w3">
               <img src="images/about.jpg" alt="" className="img-fluid image1" />
-
             </div>
-
-          </div>
-          <div className="col-md-6 last-img pl-lg-5 p-3">
-            <h3 className="tittle mb-lg-5 mb-3"><span className="sub-tittle">THE SEASON BEGINGS </span>PROMOTION SALE OFF 50%</h3>
-            <p className="mb-4"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
-            <ul className="tic-info list-unstyled">
-              <li>
-
-                <span className="fa fa-check mr-2"></span> Integer sit amet mattis quam
-
-              </li>
-              <li>
-
-                <span className="fa fa-check mr-2"></span> Praesent ullamcorper dui turpis
-
-              </li>
-              <li>
-
-                <span className="fa fa-check mr-2"></span> Integer sit amet mattis quam
-
-              </li>
-              <li>
-
-                <span className="fa fa-check mr-2"></span> Integer sit amet mattis quam
-
-              </li>
-            </ul>
 
           </div>
         </div>
       </div>
     </section>
-    {/* //hand-crafted */}
+
+    {/* Promotion Cards */}
+    <section className="about py-md-5 py-5">
+      <div className="container-fluid">
+        <h3 className="tittle text-center">What We Offer</h3>
+        <div className="feature-grids row px-3">
+          <Offer icon="truck" title="FREE SHIPPING." detail="On all order over $2000" />
+          <Offer icon="bullhorn" title="FREE RETURN" detail="On 1st exchange in 30 days" className="bottom-gd2-active" />
+          <Offer icon="gift" title="MEMBER DISCOUNT" detail="Register & save up to $29%" />
+          <Offer icon="usd" title="PREMIUM SUPPORT" detail="Support 24 hours per day" />
+        </div>
+      </div>
+    </section>
+
     {/* stats */}
     <section className="stats py-5" id="stats">
       <div className="container py-md-3">
         <div className="row stat-grids">
           <div className="col-lg-6 ser-lt">
-            <div className="d-flex services-box">
-              <div className="icon">
-                <span className="fa fa-line-chart"></span>
-              </div>
-              {/* .Icon ends here */}
-              <div className="service-content">
-                <h4>Inagittis Lacg</h4>
-                <p className="serp">
-                  Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                </p>
-              </div>
-              {/* .Service-content ends here */}
-            </div>
-            {/* .Services-box ends here */}
-
-            <div className="d-flex services-box ser-midd">
-              <div className="icon">
-                <span className="fa fa-bell-o"></span>
-              </div>
-              {/* .Icon ends here */}
-              <div className="service-content">
-                <h4>Velitdipisc Inagittis</h4>
-                <p className="serp">
-                  Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                </p>
-              </div>
-              {/* .Service-content ends here */}
-            </div>
-            {/* .Services-box ends here */}
-            {/* .Services-box ends here */}
-
-            <div className="d-flex services-box bx-4">
-              <div className="icon">
-                <span className="fa fa-line-chart"></span>
-              </div>
-              {/* .Icon ends here */}
-              <div className="service-content">
-                <h4>Sagittis Lacus</h4>
-                <p className="serp">
-                  Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                </p>
-              </div>
-              {/* .Service-content ends here */}
-            </div>
-            {/* .Services-box ends here */}
-          </div>
-          <div className="col-lg-6 ser-lt ser-right">
-            <div className="d-flex services-box">
-              <div className="icon">
-                <span className="fa fa-line-chart"></span>
-              </div>
-              {/* .Icon ends here */}
-              <div className="service-content">
-                <h4>Inagittis Lacg</h4>
-                <p className="serp">
-                  Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                </p>
-              </div>
-              {/* .Service-content ends here */}
-            </div>
-            {/* .Services-box ends here */}
-
-            <div className="d-flex services-box ser-midd">
-              <div className="icon">
-                <span className="fa fa-bell-o"></span>
-              </div>
-              {/* .Icon ends here */}
-              <div className="service-content">
-                <h4>Velitdipisc Inagittis</h4>
-                <p className="serp">
-                  Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                </p>
-              </div>
-              {/* .Service-content ends here */}
-            </div>
-            {/* .Services-box ends here */}
-            {/* .Services-box ends here */}
-
-            <div className="d-flex services-box bx-4">
-              <div className="icon">
-                <span className="fa fa-line-chart"></span>
-              </div>
-              {/* .Icon ends here */}
-              <div className="service-content">
-                <h4>Sagittis Lacus</h4>
-                <p className="serp">
-                  Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing.
-                </p>
-              </div>
-              {/* .Service-content ends here */}
-            </div>
-            {/* .Services-box ends here */}
+            <ServiceCard icon="line-chart" title="Inagittis Lacg" detail="Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing." />
+            <ServiceCard icon="bell-o" title="Velitdipisc Inagittis" detail="Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing." />
+            <ServiceCard icon="line-chart" title="Inagittis Lacg" detail="Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing." />
+            <ServiceCard icon="bell-o" title="Velitdipisc Inagittis" detail="Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing." />
+            <ServiceCard icon="line-chart" title="Inagittis Lacg" detail="Quisque sagittis lacus eu lorem sodalesd vulputate velitdipisc inagittis lacg enean adipiscing." />
           </div>
         </div>
       </div>
     </section>
-    {/* //stats */}
+
     {/*/testimonials*/}
     <section className="testimonials py-5">
       <div className="container">
@@ -202,7 +66,7 @@ export default function About() {
         </div>
       </div>
     </section>
-    {/*//testimonials*/}
+
     {/*/ab */}
     <section className="about py-5">
       <div className="container pb-lg-3">
@@ -267,5 +131,21 @@ export default function About() {
 
     <Footer></Footer>
   </>
+  )
+}
+
+
+function ServiceCard({ icon, title, detail, className = '' }) {
+  return (
+    <div className="d-flex services-box">
+      <div className="icon">
+        <span className={"fa fa-" + icon}></span>
+      </div>
+      {/* .Icon ends here */}
+      <div className="service-content">
+        <h4>{title}</h4>
+        <p className="serp">{detail}</p>
+      </div>
+    </div>
   )
 }
