@@ -15,7 +15,7 @@ export default function ShopSingle() {
           <h5>Rs. 499 <span>599</span> <Link to="#">click for offer</Link></h5>
 
           <div className="available mt-3">
-            <form action="#" method="post" className="w3layouts-newsletter">
+            <form action="#" method="post" className="newsletter">
               <input type="email" name="Email" placeholder="Enter your email..." required="" />
               <button className="btn1">Check</button>
             </form>
@@ -27,7 +27,7 @@ export default function ShopSingle() {
           <div className="share-desc">
             <div className="share">
               <h4>Share Product :</h4>
-              <ul className="w3layouts_social_list list-unstyled">
+              <ul className="social_list list-unstyled">
                 <li>
                   <Link to="#" className="w3pvt_facebook">
                     <span className="fa fa-facebook-f"></span>
@@ -62,73 +62,23 @@ export default function ShopSingle() {
           <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget nisl ullamcorper, molestie blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. labore et dolore magna aliqua.</p>
         </div>
 
-        <h3 className="shop-sing">Featured Products</h3>
-        <div className="row m-0">
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s10.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Suitable Lace Up </Link>
-                </h4>
 
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$675.00</span>
-                  </div>
-                </div>
-                <Stars value="3.5" />
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s11.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Black Flats</Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$475.00</span>
-                  </div>
-                </div>
-                <Stars value="3.5" />
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4 product-men">
-            <div className="product-shoe-info shoe text-center">
-              <div className="men-thumb-item">
-                <img src="images/s12.jpg" className="img-fluid" alt="" />
-                <span className="product-new-top">New</span>
-              </div>
-              <div className="item-info-product">
-                <h4>
-                  <Link to="/shop-single">Elevator Shoes </Link>
-                </h4>
-
-                <div className="product_price">
-                  <div className="grid-price">
-                    <span className="money">$575.00</span>
-                  </div>
-                </div>
-                <Stars value="3.5" />
-              </div>
-            </div>
-          </div>
-        </div>
       </div >
     </section >
+
+    {/* New Arrivals */}
+    <section className="about py-5">
+      <div className="container pb-lg-3">
+        <h3 className="tittle text-center">Featured Products</h3>
+
+        <div className="row">
+          <Product img="images/s10.jpg" name="Suitable Lace Up" price="$675.00" stars="2.5" />
+          <Product img="images/s11.jpg" name="Black Flats " price="$475.00" stars="2.5" />
+          <Product img="images/s12.jpg" name="Elevator Shoes" price="$575.00" stars="3.5" />
+        </div>
+
+      </div>
+    </section>
 
     <Footer></Footer>
   </>)

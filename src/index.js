@@ -12,8 +12,9 @@ global.t = (txt) => {
 import Stars from "./components/Stars"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
+import Product from "./components/Product"
 import Offer from "./components/Offer"
-Object.assign(global, { Footer, Header, Stars, Offer })
+Object.assign(global, { Footer, Header, Stars, Offer, Product })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

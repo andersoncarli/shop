@@ -2,7 +2,7 @@ export default function About() {
   return (<>
     <Header>About Us</Header>
 
-    {/*/ab */}
+    {/* about */}
     <section className="hand-crafted py-5">
       <div className="container">
         <div className="inner-sec py-md-5 px-lg-5">
@@ -12,7 +12,7 @@ export default function About() {
       </div>
     </section>
 
-    {/* /hand-crafted */}
+    {/* hand-crafted */}
     <section className="hand-crafted py-5">
       <div className="container py-md-3">
         <div className="row banner-grids">
@@ -54,20 +54,20 @@ export default function About() {
       </div>
     </section>
 
-    {/*/testimonials*/}
+    {/* testimonials*/}
     <section className="testimonials py-5">
       <div className="container">
         <div className="test-info text-center">
           <h3 className="my-md-2 my-3">Jenifer Burns</h3>
 
-          <Stars className="list-unstyled w3layouts-icons clients"></Stars>
+          <Stars className="list-unstyled icons clients"></Stars>
           <p><span className="fa fa-quote-left"></span> Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.Nulla pellentesque mi non laoreet eleifend. Integer porttitor mollisar lorem, at molestie arcu pulvinar ut. <span className="fa fa-quote-right"></span></p>
 
         </div>
       </div>
     </section>
 
-    {/*/ab */}
+    {/* about */}
     <section className="about py-5">
       <div className="container pb-lg-3">
         <h3 className="tittle text-center">Popular Products</h3>
@@ -102,7 +102,7 @@ export default function About() {
         </div>
       </div>
     </section>
-    {/* //ab */}
+
     {/* brands */}
     <section className="brands py-5" id="brands">
       <div className="container py-lg-0">
@@ -141,7 +141,7 @@ function ServiceCard({ icon, title, detail, className = '' }) {
       <div className="icon">
         <span className={"fa fa-" + icon}></span>
       </div>
-      {/* .Icon ends here */}
+
       <div className="service-content">
         <h4>{title}</h4>
         <p className="serp">{detail}</p>
